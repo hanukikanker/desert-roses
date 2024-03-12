@@ -1,7 +1,7 @@
 ---
 title: "Desert Rose"
 subtitle: "Desertification in Niger"
-author: "Aaron, Andro, Huan, James, Maria, Sameera"
+author: "Aaron, Andrio, Huan, James, Maria, Sameera"
 output:
   xaringan::moon_reader:
     lib_dir: libs
