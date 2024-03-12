@@ -1,0 +1,147 @@
+---
+title: "Desert Rose"
+subtitle: "Desertification in Niger"
+author: "Aaron, Andro, Huan, James, Maria, Sameera"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+library(here)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(readxl)
+library(fs)
+library(countdown)
+library(xaringan)
+library(xaringanExtra)
+library(knitr)
+
+hook_source <- knitr::knit_hooks$get('source')
+knitr::knit_hooks$set(source = function(x, options) {
+  x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
+  hook_source(x, options)
+})
+
+xaringanExtra::use_broadcast()
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_scribble()
+#xaringanExtra::use_slide_tone()
+xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE)
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_editable(expires = 1)
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         
+  mute_unhighlighted_code = TRUE  
+)
+
+```
+
+---
+
+
+
+---
+# Visualisation of Impacts/Risks
+
+.panelset[
+.panel[.panel-name[Extreme Heat]
+```{r echo=FALSE}
+#read in images here
+```
+
+]
+.panel[.panel-name[Water Body Loss]
+```{r echo=FALSE}
+#read in images here
+```
+
+]
+]
+
+---
+# Justification behind Niger
+
+
+---
+# Definition of Desertification
+
+
+---
+# Niger’s vast potential to turn things around with GGW
+
+
+---
+# Systematic challenges hindering GGW
+
+---
+# Our contributions
+
+
+---
+# Methodology Framework
+
+---
+# Workflow Phase 1
+
+
+---
+# Workflow Phase 2
+
+
+---
+# Earth Observation Data
+
+
+---
+# Additional Data
+
+
+---
+# Sample Dashboard Preview
+
+
+---
+# Sample Dashboard Demo
+
+
+---
+# Limitations
+
+
+---
+# Recommended Action Plans
+
+
+---
+# Project Timeline
+
+
+
+---
+# Project Costing
+
+
+
+---
+
+
+# References
+
+
+
+---
+
+class: center, middle
+
+# Thank You
+
