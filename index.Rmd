@@ -168,12 +168,18 @@ class: center, middle, inverse
 
 
 ---
-# Workflow Phase 1
+# Workflow Methodology A
 
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("Images/method_a.png")
+```
 
 ---
-# Workflow Phase 2
+# Workflow Methodology B
 
+```{r, echo=FALSE, out.width='85%'}
+knitr::include_graphics("Images/method_b.png")
+```
 
 ---
 # Earth Observation Data
