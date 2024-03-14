@@ -53,14 +53,14 @@ xaringanExtra::use_extra_styles(
 library(xaringanthemer)
 style_duo_accent(
   primary_color = "#F08F42",
-  secondary_color = "#FFFFFF",
-  inverse_header_color = "#E35F27"
+  secondary_color = "#E35F27",
+  inverse_header_color = "#FFFFFF"
 )
 ```
 
 ---
 
-class: center, middle
+class: center, middle, inverse
 
 # WHY WE ARE HERE
 
@@ -107,7 +107,7 @@ class: center, middle
 
 ---
 
-class: center, middle
+class: center, middle, inverse
 
 # HOW WE DO IT
 
@@ -197,7 +197,7 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 
 ---
 
-class: center, middle
+class: center, middle, inverse
 
 # PLAN OF ACTION
 
@@ -218,7 +218,7 @@ class: center, middle
 
 ---
 
-class: center, middle
+class: center, middle, inverse
 
 # THANK YOU
 

@@ -50,15 +50,15 @@
   --text-bold-color: #F08F42;
   --code-highlight-color: rgba(255,255,0,0.5);
   --inverse-text-color: #000000;
-  --inverse-background-color: #FFFFFF;
-  --inverse-header-color: #E35F27;
+  --inverse-background-color: #E35F27;
+  --inverse-header-color: #FFFFFF;
   --inverse-link-color: #F08F42;
   --title-slide-background-color: #F08F42;
   --title-slide-text-color: #000000;
   --header-background-color: #F08F42;
   --header-background-text-color: #FFFFFF;
   --primary: #F08F42;
-  --secondary: #FFFFFF;
+  --secondary: #E35F27;
   --white: #FFFFFF;
   --black: #000000;
 }
@@ -177,7 +177,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #FFFFFF80;
+  border-left: solid 5px #E35F2780;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -194,7 +194,7 @@ th, td {
 .remark-slide table:not(.table-unshaded) thead,
 .remark-slide table:not(.table-unshaded) tfoot,
 .remark-slide table:not(.table-unshaded) tr:nth-child(even) {
-  background: #FFFFFF;
+  background: #F9DFD3;
 }
 table.dataTable tbody {
   background-color: var(--background-color);
@@ -204,7 +204,7 @@ table.dataTable.display tbody tr.odd {
   background-color: var(--background-color);
 }
 table.dataTable.display tbody tr.even {
-  background-color: #FFFFFF;
+  background-color: #F9DFD3;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);
