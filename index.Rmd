@@ -14,7 +14,7 @@ output:
       countIncrementalSlides: true
     seal: false
     includes:
-      after_body: 'Images/insert-logo.html'
+      after_body: insert-logo.html
 ---
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(here)
@@ -54,7 +54,7 @@ xaringanExtra::use_extra_styles(
 background-image: url('Images/112-ciencia-i-politica-.jpg') 
 background-size: cover
 
-class: inverse, center, middle
+class: inverse, center, middle, hide-logo
 
 # Greening the Sahel in Southern Niger 
 ##Against Desertification
@@ -66,7 +66,7 @@ knitr::include_graphics('Images/RS - images/logo.jpeg')
 
 ---
 
-class: center, middle, inverse
+class: center, middle, inverse, hide-logo
 
 # WHY WE ARE HERE
 
@@ -144,8 +144,8 @@ knitr::include_graphics('Images/ggw.png')
 
 - **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation also fragmented across local actors.
 - **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's generated and used by individual actors but not shared effectively.
-
-**⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations via a centralised portal.]
+- **Urgent Gap:** Maintaining and updating the unified data across diverse organisations via a centralised portal.
+]
 
 .pull-right[**Mapping of actors in Niger's GGW initiative**
 ```{r, echo=FALSE, out.width='85%'}
@@ -159,7 +159,7 @@ knitr::include_graphics("Images/5actors.png")
 
 ---
 
-class: center, middle, inverse
+class: center, middle, inverse, hide-logo
 
 # HOW WE DO IT
 
@@ -170,14 +170,14 @@ class: center, middle, inverse
 
 
 ---
-# Workflow A - Desertification Index (DI) and Risk Identification
+# A. Desertification Index and Risk Identification
 
 ```{r, echo=FALSE, out.width='85%'}
 knitr::include_graphics("Images/method_a.png")
 ```
 
 ---
-# Workflow B - Tree Planting Site Identification
+# B. Tree Planting Site Identification
 
 ```{r, echo=FALSE, out.width='85%'}
 knitr::include_graphics("Images/method_b.png")
@@ -262,7 +262,7 @@ knitr::include_graphics('Images/monoculture.jpg')
 
 background-image: url('Images/greatgreenwall.jpg') 
 background-size: cover
-class: center, middle, inverse
+class: center, middle, inverse, hide-logo
 
 # PLAN OF ACTION
 
@@ -293,7 +293,7 @@ knitr::include_graphics('Images/optionalcost.png')
 
 background-image: url('Images/greatgreenwall.jpg') 
 background-size: cover
-class: center, middle, inverse
+class: center, middle, inverse, hide-logo
 
 # THANK YOU
 
