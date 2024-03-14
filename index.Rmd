@@ -186,7 +186,7 @@ knitr::include_graphics('Images/Dashboard Preview 2.png')
 
 ---
 # Sample Dashboard Demo
-```{r echo=FALSE, out.width='75%', fig.align='center'}
+```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/Dashboard Dem.gif')
 ```
 <div style="text-align: center; margin-top: 15px;">
@@ -197,11 +197,11 @@ knitr::include_graphics('Images/Dashboard Dem.gif')
 # Limitations and Proposed Mitigation
 
 .panelset.sideways[
-.panel[.panel-name[Insurgency Violence]
+.panel[.panel-name[Insurgency]
 .pull-left[
 Farmers are reported to fear carrying out reforestation or tree maintenance activities due to the jihadist threat, which could jeopardize the project.
 
-**Mitigation:** Engage this data only in conjunction with local intel on insurgence activities 
+**Mitigation:** Engage this data only in conjunction with local intel on insurgence activities before encouraging local task forces to commence crop and tree planting.
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -215,9 +215,9 @@ knitr::include_graphics('Images/Nigerian-military-4.jpg')
 ]
 .panel[.panel-name[Land Conflict]
 .pull-left[
-Need to introduce pastoral corridors to avoid the destruction of agriculture areas and GGW ecosystems, while ensuring access to food and water for the livestock.
+Need to introduce pastoral corridors to avoid the destruction of agriculture areas and Great Green Wall ecosystems, while ensuring access to food and water for the livestock of herder communities in the Sahel
 
-**Mitigation:** Confer with local herder and farmer communities to reconcile GGW planting areas
+**Mitigation:** Local liaison to confer with local herder and farmer communities to reconcile GGW planting areas. Maintain public engagement throughout implementation especially with communities living in the open steppes
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -230,11 +230,11 @@ knitr::include_graphics('Images/herdersfarmers.png')
 ]
 ]
 
-.panel[.panel-name[Monoculture Risk]
+.panel[.panel-name[Monoculture]
 .pull-left[
-Focusing restoration effort using only few species may expose them to widespread disease setting back any progress made, while irreversibly affecting the ecosystem
+Focusing restoration effort using only few species may expose them to widespread disease setting back any progress made, while irreversibly affecting the entire ecosystem in the long run
 
-**Mitigation:** Consult with expert botanists to diversify crop and tree species for GGW planting
+**Mitigation:** Consult with expert botanists to diversify crop and tree species for the Great Green Wall planting effort.
 ]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
