@@ -1,14 +1,17 @@
 ---
 title: "Desert Roses"
-subtitle: "Desertification in Niger"
+subtitle: "Greening the Desert in Southern Niger"  
 author: "Aaron, Andrio, Huan, James, Maria, Sameera"
+date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
-    lib_dir: libs
+    css: xaringan-themer.css
     nature:
+      slideNumberFormat: "%current%"
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
+      ratio: 16:9
+      countIncrementalSlides: true
 ---
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(here)
@@ -44,6 +47,15 @@ xaringanExtra::use_extra_styles(
   mute_unhighlighted_code = TRUE  
 )
 
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#F08F42",
+  secondary_color = "#FFFFFF",
+  inverse_header_color = "#E35F27"
+)
 ```
 
 ---
