@@ -47,7 +47,8 @@ xaringanExtra::use_extra_styles(
 ```
 
 ---
-
+<!-- Divider slide -->
+# WHAT NEEDS OUR COLLECTIVE ATTENTION
 
 
 ---
@@ -77,18 +78,24 @@ xaringanExtra::use_extra_styles(
 
 
 ---
-# Niger’s vast potential to turn things around with GGW
+# Vast potential to rectify with Great Green Wall...
 
 
 ---
-# Systematic challenges hindering GGW
+# ...hindered by systematic challenges
+
 
 ---
-# Our contributions
+# We bring Big Data to the rescue
 
+
+---
+<!-- Divider slide -->
+# HOW WE DO IT
 
 ---
 # Methodology Framework
+
 
 ---
 # Workflow Phase 1
@@ -125,7 +132,7 @@ knitr::include_graphics('Images/Dashboard Dem.gif')
 </div>
 
 ---
-# Limitations to Our Solutions and Services
+# Limitations to Our Solutions
 
 .panelset[
 .panel[.panel-name[Risk of Violence]
@@ -170,6 +177,11 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 <!-- ``` -->
 
 ---
+<!-- Divider slide -->
+# PLAN OF ACTION
+
+
+---
 # Project Timeline
 
 
@@ -178,10 +190,12 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 # Project Costing
 
 
+---
+<!-- Divider slide -->
+# THANK YOU
+
 
 ---
-
-
 # References
 
 
