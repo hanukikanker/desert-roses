@@ -59,8 +59,9 @@ style_duo_accent(
 ```
 
 ---
-<!-- Divider slide -->
+
 class: center, middle
+
 # WHY WE ARE HERE
 
 
@@ -103,9 +104,11 @@ class: center, middle
 
 
 ---
-<!-- Divider slide -->
+
 class: center, middle
+
 # HOW WE DO IT
+
 
 ---
 # Methodology Framework
@@ -191,8 +194,9 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 <!-- ``` -->
 
 ---
-<!-- Divider slide -->
+
 class: center, middle
+
 # PLAN OF ACTION
 
 
@@ -214,5 +218,5 @@ class: center, middle
 
 class: center, middle
 
-# Thank You
+# THANK YOU
 
