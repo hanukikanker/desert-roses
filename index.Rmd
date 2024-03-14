@@ -81,7 +81,7 @@ class: center, middle
 ```
 
 ]
-.panel[.panel-name[Arable Land Loss]
+.panel[.panel-name[Natural Flora Loss]
 ```{r echo=FALSE}
 #read in images here
 ```
