@@ -13,6 +13,8 @@ output:
       ratio: 16:9
       countIncrementalSlides: true
     seal: false
+    includes:
+      after_body: 'Images/insert-logo.html'
 ---
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(here)
