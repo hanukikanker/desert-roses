@@ -12,6 +12,7 @@ output:
       highlightLines: true
       ratio: 16:9
       countIncrementalSlides: true
+    seal: false
 ---
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
 library(here)
@@ -211,14 +212,16 @@ class: center, middle, inverse
 # Project Costing
 
 
----
-# References
-
-
 
 ---
 
 class: center, middle, inverse
 
 # THANK YOU
+
+
+---
+# References
+
+
 
