@@ -48,7 +48,8 @@ xaringanExtra::use_extra_styles(
 
 ---
 <!-- Divider slide -->
-# WHAT NEEDS OUR COLLECTIVE ATTENTION
+class: center, middle
+# WHY WE ARE HERE
 
 
 ---
@@ -91,6 +92,7 @@ xaringanExtra::use_extra_styles(
 
 ---
 <!-- Divider slide -->
+class: center, middle
 # HOW WE DO IT
 
 ---
@@ -178,6 +180,7 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 
 ---
 <!-- Divider slide -->
+class: center, middle
 # PLAN OF ACTION
 
 
@@ -188,11 +191,6 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 
 ---
 # Project Costing
-
-
----
-<!-- Divider slide -->
-# THANK YOU
 
 
 ---
