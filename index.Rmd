@@ -168,14 +168,14 @@ class: center, middle, inverse
 
 
 ---
-# Workflow Methodology A
+# Workflow A - Desertification Index (DI) and Risk Identification
 
 ```{r, echo=FALSE, out.width='85%'}
 knitr::include_graphics("Images/method_a.png")
 ```
 
 ---
-# Workflow Methodology B
+# Workflow B - Tree Planting Site Identification
 
 ```{r, echo=FALSE, out.width='85%'}
 knitr::include_graphics("Images/method_b.png")
