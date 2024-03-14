@@ -186,7 +186,7 @@ class: center, middle, inverse
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/Dashboard Preview 2.png')
 ```
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 15px;">
     <p><em><strong>Source:</strong> eMapR Lab (2019)</em></p>
 </div>
 
@@ -195,54 +195,65 @@ knitr::include_graphics('Images/Dashboard Preview 2.png')
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/Dashboard Dem.gif')
 ```
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 15px;">
     <p><em><strong>Source:</strong> eMapR Lab (2019)</em></p>
 </div>
 
 ---
-# Limitations to Our Solutions
+# Limitations and Proposed Mitigation
 
-.panelset[
-.panel[.panel-name[Risk of Violence]
+.panelset.sideways[
+.panel[.panel-name[Insurgency Violence]
+.pull-left[
 Farmers are reported to fear carrying out reforestation or tree maintenance activities due to the jihadist threat, which could jeopardize the project.
 
-```{r echo=FALSE, out.width='50%', fig.align='center'}
+**Mitigation:** Engage this data only in conjunction with local intel on insurgence activities 
+]
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/Nigerian-military-4.jpg')
 ```
 
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 15px;">
     <p><em><strong>Image Source:</strong> Reuters (2022)</em></p>
 </div>
 ]
+]
 .panel[.panel-name[Land Conflict]
+.pull-left[
 Need to introduce pastoral corridors to avoid the destruction of agriculture areas and GGW ecosystems, while ensuring access to food and water for the livestock.
-```{r echo=FALSE, out.width='50%', fig.align='center'}
+
+**Mitigation:** Confer with local herder and farmer communities to reconcile GGW planting areas
+]
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/herdersfarmers.png')
 ```
 
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 15px;">
     <p><em><strong>Image Source:</strong> Human Rights Watch (2014)</em></p>
 </div>
 ]
+]
 
-.panel[.panel-name[Risk of Monoculture]
+.panel[.panel-name[Monoculture Risk]
+.pull-left[
+Focusing restoration effort using only few species may expose them to widespread disease setting back any progress made, while irreversibly affecting the ecosystem
 
-Focusing restoration effort using only few species may expose them to widespread disease setting back any progress made, while irreversibly affecting the ecosystem 
-```{r echo=FALSE, out.width='50%', fig.align='center'}
-knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
+**Mitigation:** Consult with expert botanists to diversify crop and tree species for GGW planting
+]
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('Images/monoculture.jpg')
 ```
 
-<div style="text-align: center; margin-top: 20px;">
-    <p><em><strong>Image Source:</strong> Pixabay (2017)</em></p>
+<div style="text-align: center; margin-top: 15px;">
+    <p><em><strong>Image Source:</strong> New York Times (2022)</em></p>
 </div>
 ]
 ]
 
----
-<!-- # Recommended Action Plans -->
-<!-- ```{r echo=FALSE, out.width='100%', fig.align='center'} -->
-<!-- knitr::include_graphics('Images/Action Plan.png') -->
-<!-- ``` -->
+]
 
 ---
 
@@ -252,12 +263,12 @@ class: center, middle, inverse
 
 
 ---
-# Project Timeline
+# Implementation Timeline
 
 
 
 ---
-# Project Costing
+# Projected Budget
 
 
 
