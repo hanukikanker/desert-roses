@@ -77,16 +77,16 @@ xaringanExtra::use_panelset()
 
 
 .panelset.sideways[
-.panel[.panel-name[Historical Heat Loss]
-```{r, echo=FALSE, out.width='100%'}
+.panel[.panel-name[Hist. Air Temp Increase]
+```{r, echo=FALSE, out.width='75%'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
 ```
 ]
 
-.panel[.panel-name[Projected Heat Loss]
+.panel[.panel-name[Proj. Air Temp Increase]
 
 
-```{r, echo=FALSE, out.width='200%',fig.align='centre'}
+```{r, echo=FALSE, out.width='75%',fig.align='centre'}
 knitr::include_graphics('Images/RS - images/output_djIgp0.gif')
 ```
 
@@ -120,6 +120,16 @@ knitr::include_graphics('Images/RS - images/rsz_satellite-images-show-the-massiv
 ---
 # Vast potential with Great Green Wall...
 
+The **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel containing among eleven nations. Niger restoration potential is **25% of the total potential**. By 2030, the GGW initiative sets out to: 
+
+- restore **100 million hectares** of currently degraded land, 
+- reduce emissions, sequester **250 million tons of carbon**, and 
+- create **10 million green jobs** in rural areas.
+
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics('Images/ggw.png')
+```
+
 
 ---
 # ...but hindered by systematic challenges
@@ -128,18 +138,18 @@ knitr::include_graphics('Images/RS - images/rsz_satellite-images-show-the-massiv
 
 Despite some success, the progress of the GGW has been facing severe challenges in the last decade 
 
-**Poor governance at the heart of the issue:**
+**Poor governance** at the heart of the issue:
 
-- **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation is also fragmented across local actors.
-- **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's used by individual actors but not shared or archived effectively.
+- **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation also fragmented across local actors.
+- **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's generated and used by individual actors but not shared effectively.
 
 **⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations, potentially via centralised portal. 
 
 
 ]
 .pull-right[
-
-```{r, echo=FALSE, out.width='100%'}
+**Mapping of actors in Niger's GGW initiative**
+```{r, echo=FALSE, out.width='85%'}
 knitr::include_graphics("Images/5actors.png")
 ```
 ]
@@ -267,30 +277,20 @@ class: center, middle, inverse
 knitr::include_graphics('Images/timeline.png')
 ```
 
-
 ---
 # Projected Budget
 
-
-.panelset.sideways[
-.panel[.panel-name[Compulsory Costs]
-```{r, echo=FALSE, out.width='100%'}
+```{r, echo=FALSE, out.width='80%',fig.align='centre'}
 knitr::include_graphics('Images/compulsorycost.png')
 ```
+.left-column[
+**Value-added Services**
 ]
-
-.panel[.panel-name[Value-Added Services]
-
-
-```{r, echo=FALSE, out.width='100%',fig.align='centre'}
+.right-column[
+```{r, echo=FALSE, out.width='80%',fig.align='centre'}
 knitr::include_graphics('Images/optionalcost.png')
 ```
-
-
 ]
-]
-
-
 ---
 
 background-image: url('Images/greatgreenwall.jpg') 
