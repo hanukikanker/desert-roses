@@ -258,14 +258,37 @@ class: center, middle, inverse
 # PLAN OF ACTION
 
 
+
+
 ---
 # Implementation Timeline
 
+```{r, echo=FALSE, out.width='95%'}
+knitr::include_graphics('Images/timeline.png')
+```
 
 
 ---
 # Projected Budget
 
+
+.panelset.sideways[
+.panel[.panel-name[Compulsory Costs]
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics('Images/compulsorycost.png')
+```
+]
+
+.panel[.panel-name[Optional Cost (Value-Added Services)]
+
+
+```{r, echo=FALSE, out.width='100%',fig.align='centre'}
+knitr::include_graphics('Images/optionalcost.png')
+```
+
+
+]
+]
 
 
 ---
