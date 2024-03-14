@@ -164,10 +164,10 @@ knitr::include_graphics('Images/field-of-rapeseeds-4198057_1920.jpg')
 ]
 
 ---
-# Recommended Action Plans
-```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('Images/Action Plan.png')
-```
+<!-- # Recommended Action Plans -->
+<!-- ```{r echo=FALSE, out.width='100%', fig.align='center'} -->
+<!-- knitr::include_graphics('Images/Action Plan.png') -->
+<!-- ``` -->
 
 ---
 # Project Timeline
