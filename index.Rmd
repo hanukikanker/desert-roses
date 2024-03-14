@@ -68,6 +68,7 @@ class: center, middle, inverse
 
 # WHY WE ARE HERE
 
+### Context & Background
 
 ---
 # Niger is bearing the brunt of climate change
@@ -77,13 +78,13 @@ xaringanExtra::use_panelset()
 
 
 .panelset.sideways[
-.panel[.panel-name[Hist. Air Temp Increase]
+.panel[.panel-name[Hist. Temp Increase]
 ```{r, echo=FALSE, out.width='75%'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
 ```
 ]
 
-.panel[.panel-name[Proj. Air Temp Increase]
+.panel[.panel-name[Proj. Temp Increase]
 
 
 ```{r, echo=FALSE, out.width='75%',fig.align='centre'}
@@ -95,16 +96,18 @@ knitr::include_graphics('Images/RS - images/output_djIgp0.gif')
 ]
 
 .panel[.panel-name[Water Bodies Shrinkage]
-
-```{r, echo=FALSE, out.width='80%'}
+.pull-left[
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-05 at 13.25.58.jpeg')
 ```
-
-```{r, echo=FALSE, out.width='70%'}
+]
+.pull-right[
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics('Images/RS - images/rsz_satellite-images-show-the-massive-shrinking-in-size-of-lake-chad-between-1972-and-2007.jpg')
 ```
-
 ]
+]
+
 .panel[.panel-name[Natural Flora Loss]
 ```{r, echo=FALSE, out.width='70%'}
 #read in images here
@@ -133,22 +136,16 @@ knitr::include_graphics('Images/ggw.png')
 
 ---
 # ...but hindered by systematic challenges
-
-.pull-left[
-
-Despite some success, the progress of the GGW has been facing severe challenges in the last decade 
+.pull-left[Despite some success, the progress of the GGW has been facing severe challenges in the last decade 
 
 **Poor governance** at the heart of the issue:
 
 - **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation also fragmented across local actors.
 - **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's generated and used by individual actors but not shared effectively.
 
-**⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations, potentially via centralised portal. 
+**⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations via a centralised portal.]
 
-
-]
-.pull-right[
-**Mapping of actors in Niger's GGW initiative**
+.pull-right[**Mapping of actors in Niger's GGW initiative**
 ```{r, echo=FALSE, out.width='85%'}
 knitr::include_graphics("Images/5actors.png")
 ```
@@ -164,6 +161,7 @@ class: center, middle, inverse
 
 # HOW WE DO IT
 
+### Our award-winning methodology
 
 ---
 # Methodology Framework
@@ -205,14 +203,11 @@ knitr::include_graphics('Images/Dashboard Dem.gif')
 
 ---
 # Limitations and Proposed Mitigation
-
 .panelset.sideways[
 .panel[.panel-name[Insurgency]
-.pull-left[
-Farmers are reported to fear carrying out reforestation or tree maintenance activities due to the jihadist threat, which could jeopardize the project.
+.pull-left[Farmers are reported to fear carrying out reforestation or tree maintenance activities due to the jihadist threat, which could jeopardize the project.
 
-**Mitigation:** Engage this data only in conjunction with local intel on insurgence activities before encouraging local task forces to commence crop and tree planting.
-]
+**Mitigation:** Engage this data only in conjunction with local intel on insurgence activities before encouraging local task forces to commence crop and tree planting.]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/Nigerian-military-4.jpg')
@@ -224,11 +219,9 @@ knitr::include_graphics('Images/Nigerian-military-4.jpg')
 ]
 ]
 .panel[.panel-name[Land Conflict]
-.pull-left[
-Need to introduce pastoral corridors to avoid the destruction of agriculture areas and Great Green Wall ecosystems, while ensuring access to food and water for the livestock of herder communities in the Sahel
+.pull-left[Need to introduce pastoral corridors to avoid the destruction of agriculture areas and Great Green Wall ecosystems, while ensuring access to food and water for the livestock of herder communities in the Sahel
 
-**Mitigation:** Local liaison to confer with local herder and farmer communities to reconcile GGW planting areas. Maintain public engagement throughout implementation especially with communities living in the open steppes
-]
+**Mitigation:** Local liaison to confer with local herder and farmer communities to reconcile GGW planting areas. Maintain public engagement throughout implementation especially with communities living in the open steppes]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/herdersfarmers.png')
@@ -241,11 +234,9 @@ knitr::include_graphics('Images/herdersfarmers.png')
 ]
 
 .panel[.panel-name[Monoculture]
-.pull-left[
-Focusing restoration effort using only few species may expose them to widespread disease setting back any progress made, while irreversibly affecting the entire ecosystem in the long run
+.pull-left[Focusing restoration effort using only few species may expose them to widespread disease setting back any progress made, while irreversibly affecting the entire ecosystem in the long run
 
-**Mitigation:** Consult with expert botanists to diversify crop and tree species for the Great Green Wall planting effort.
-]
+**Mitigation:** Consult with expert botanists to diversify crop and tree species for the Great Green Wall planting effort.]
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics('Images/monoculture.jpg')
@@ -267,8 +258,7 @@ class: center, middle, inverse
 
 # PLAN OF ACTION
 
-
-
+### Putting it in motion
 
 ---
 # Implementation Timeline
