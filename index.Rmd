@@ -118,7 +118,7 @@ knitr::include_graphics('Images/Dashboard Preview 2.png')
 ---
 # Sample Dashboard Demo
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('Images/Dashboard Demo.gif')
+knitr::include_graphics('Images/Dashboard Dem.gif')
 ```
 <div style="text-align: center; margin-top: 20px;">
     <p><em><strong>Source:</strong> eMapR Lab (2019)</em></p>
