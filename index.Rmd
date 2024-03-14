@@ -279,7 +279,7 @@ knitr::include_graphics('Images/compulsorycost.png')
 ```
 ]
 
-.panel[.panel-name[Optional Cost (Value-Added Services)]
+.panel[.panel-name[Value-Added Services]
 
 
 ```{r, echo=FALSE, out.width='100%',fig.align='centre'}
