@@ -54,10 +54,21 @@ xaringanExtra::use_extra_styles(
 library(xaringanthemer)
 style_duo_accent(
   primary_color = "#F08F42",
-  secondary_color = "#E35F27",
+  secondary_color = "#F08F42",
   inverse_header_color = "#FFFFFF"
 )
 ```
+
+
+class: inverse, center, title-slide, top
+
+
+background-image: url('Images/112-ciencia-i-politica-.jpg') 
+background-position: 50% 50%
+class: center, middle, inverse
+
+#Greening The Desert In Southern Niger
+
 
 ---
 
@@ -68,22 +79,42 @@ class: center, middle, inverse
 
 ---
 # Niger is bearing the brunt of climate change
-
-.panelset[
-.panel[.panel-name[Extreme Heat]
-```{r echo=FALSE}
-#read in images here
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
 ```
 
+
+.panelset.sideways[
+.panel[.panel-name[Historical Heat Loss]
+```{r, echo=FALSE, out.width='80%'}
+knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
+```
 ]
-.panel[.panel-name[Water Body Loss]
-```{r echo=FALSE}
-#read in images here
+
+.panel[.panel-name[Projected Heat Loss]
+
+
+```{r, echo=FALSE, out.width='200%',fig.align='centre'}
+knitr::include_graphics('Images/RS - images/output_djIgp0.gif')
+```
+
+
+
+]
+
+.panel[.panel-name[Water Bodies Shrinkage]
+
+```{r, echo=FALSE, out.width='80%'}
+knitr::include_graphics('Images/RS - images/Screenshot 2024-03-05 at 13.25.58.jpeg')
+```
+
+```{r, echo=FALSE, out.width='70%'}
+knitr::include_graphics('Images/RS - images/rsz_satellite-images-show-the-massive-shrinking-in-size-of-lake-chad-between-1972-and-2007.jpg')
 ```
 
 ]
 .panel[.panel-name[Natural Flora Loss]
-```{r echo=FALSE}
+```{r, echo=FALSE, out.width='70%'}
 #read in images here
 ```
 
@@ -101,6 +132,23 @@ class: center, middle, inverse
 ---
 # ...but hindered by systematic challenges
 
+.pull-left[
+
+Despite some success Senegal, Mali, and locally here in Niger, the progress of the GGW has been facing severe challenges in the last 10 years. **Poor governance at the heart of the issue:**
+
+- **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. The government plays a key role but relies heavily on donor funds. 
+- **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's used by individual actors but not shared or archived effectively.
+
+**⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations and potentially a central web portal. 
+
+
+]
+.pull-right[
+
+```{r, echo=FALSE, out.width='80%'}
+knitr::include_graphics("Images/5actors.png")
+```
+]
 
 ---
 # We bring data and expertise to the rescue
@@ -222,6 +270,5 @@ class: center, middle, inverse
 
 ---
 # References
-
 
 
