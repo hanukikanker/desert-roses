@@ -130,7 +130,7 @@ a, a > code {
   color: var(--inverse-text-color);
   
 }
-.inverse h1, .inverse h2, .inverse h3 {
+.inverse h1, .inverse h2, .inverse h3, .inverse h4 {
   color: var(--inverse-header-color);
 }
 .inverse a, .inverse a > code {

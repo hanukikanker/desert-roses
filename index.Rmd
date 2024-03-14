@@ -35,7 +35,6 @@ knitr::knit_hooks$set(source = function(x, options) {
 xaringanExtra::use_broadcast()
 xaringanExtra::use_freezeframe()
 xaringanExtra::use_scribble()
-#xaringanExtra::use_slide_tone()
 xaringanExtra::use_search(show_icon = TRUE, auto_search	=FALSE)
 xaringanExtra::use_freezeframe()
 xaringanExtra::use_clipboard()
@@ -50,25 +49,18 @@ xaringanExtra::use_extra_styles(
 
 ```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#F08F42",
-  secondary_color = "#F08F42",
-  inverse_header_color = "#FFFFFF"
-)
-```
-
-
-class: inverse, center, title-slide, top
-
-
 background-image: url('Images/112-ciencia-i-politica-.jpg') 
-background-position: 50% 50%
-class: center, middle, inverse
+background-size: cover
 
-#Greening The Desert In Southern Niger
+class: inverse, center, middle
 
+# Greening the Sahel in Southern Niger 
+##Against Desertification
+```{r, echo=FALSE, out.width='10%'}
+knitr::include_graphics('Images/RS - images/logo.jpeg')
+```
+#### CASA0023 Group Project  
+#### 19/03/2024
 
 ---
 
@@ -86,7 +78,7 @@ xaringanExtra::use_panelset()
 
 .panelset.sideways[
 .panel[.panel-name[Historical Heat Loss]
-```{r, echo=FALSE, out.width='80%'}
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
 ```
 ]
@@ -134,18 +126,20 @@ knitr::include_graphics('Images/RS - images/rsz_satellite-images-show-the-massiv
 
 .pull-left[
 
-Despite some success Senegal, Mali, and locally here in Niger, the progress of the GGW has been facing severe challenges in the last 10 years. **Poor governance at the heart of the issue:**
+Despite some success, the progress of the GGW has been facing severe challenges in the last decade 
 
-- **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. The government plays a key role but relies heavily on donor funds. 
+**Poor governance at the heart of the issue:**
+
+- **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation is also fragmented across local actors.
 - **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's used by individual actors but not shared or archived effectively.
 
-**⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations and potentially a central web portal. 
+**⇒ Urgent Gap:** Maintaining and updating the unified data across diverse organisations, potentially via centralised portal. 
 
 
 ]
 .pull-right[
 
-```{r, echo=FALSE, out.width='80%'}
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics("Images/5actors.png")
 ```
 ]
@@ -192,7 +186,7 @@ knitr::include_graphics('Images/Dashboard Preview 2.png')
 
 ---
 # Sample Dashboard Demo
-```{r echo=FALSE, out.width='100%', fig.align='center'}
+```{r echo=FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics('Images/Dashboard Dem.gif')
 ```
 <div style="text-align: center; margin-top: 15px;">
@@ -257,6 +251,8 @@ knitr::include_graphics('Images/monoculture.jpg')
 
 ---
 
+background-image: url('Images/greatgreenwall.jpg') 
+background-size: cover
 class: center, middle, inverse
 
 # PLAN OF ACTION
@@ -274,6 +270,8 @@ class: center, middle, inverse
 
 ---
 
+background-image: url('Images/greatgreenwall.jpg') 
+background-size: cover
 class: center, middle, inverse
 
 # THANK YOU
