@@ -362,8 +362,9 @@ FAO: Food and Agriculture Organization of the United Nations (no date a) FAODocu
 
 Humanitarian Data Exchange. Available at: https://data.humdata.org/dataset/kontur-population-dataset
 
- Lt-gee guide. Available at: https://emapr.github.io/LT-GEE/
+Lt-gee guide. Available at: https://emapr.github.io/LT-GEE/
 ---
+
 Modis web, NASA. Available at: https://modis.gsfc.nasa.gov/about/specifications.php
 
 Niger population 2024 (live). Available at: https://worldpopulationreview.com/countries/niger-population
