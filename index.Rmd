@@ -224,6 +224,7 @@ kable_out <- kable(eo_data_df, "html", escape = FALSE, align = 'l') %>%
 kable_out
 ```
 
+
 ---
 # Sample Dashboard Preview
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
