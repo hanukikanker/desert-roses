@@ -72,46 +72,48 @@ class: center, middle, inverse
 ### Context & Background
 
 ---
+class: center, middle
 # Niger is bearing the brunt of climate change
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
 ```
 
-
 .panelset.sideways[
 .panel[.panel-name[Hist. Temp Increase]
-```{r, echo=FALSE, out.width='75%'}
+
+Temperature is now trending at an unprecedented rate
+
+```{r, echo=FALSE, out.width='75%', fig.align='centre'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
 ```
+
 ]
 
 .panel[.panel-name[Proj. Temp Increase]
-
-
+Projected number of hot days are exceeding records. From 2020 40 degree days will be the norm.
 ```{r, echo=FALSE, out.width='75%',fig.align='centre'}
 knitr::include_graphics('Images/RS - images/output_djIgp0.gif')
 ```
-
-
-
 ]
 
 .panel[.panel-name[Water Bodies Shrinkage]
+50% loss in water bodies in less than 3 decades. 
 .pull-left[
-```{r, echo=FALSE, out.width='100%'}
+```{r, echo=FALSE, out.width='140%', fig.align='centre'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-05 at 13.25.58.jpeg')
 ```
 ]
 .pull-right[
-```{r, echo=FALSE, out.width='100%'}
+```{r, echo=FALSE, out.width='120%', fig.align='centre' }
 knitr::include_graphics('Images/RS - images/rsz_satellite-images-show-the-massive-shrinking-in-size-of-lake-chad-between-1972-and-2007.jpg')
 ```
 ]
 ]
 
 .panel[.panel-name[Natural Flora Loss]
-```{r, echo=FALSE, out.width='70%'}
-#read in images here
+A loss of natural flora in the region
+```{r, echo=FALSE, out.width='70%', fig.align='centre'}
+knitr::include_graphics('Images/Flora.png')
 ```
 
 ]
@@ -154,7 +156,10 @@ knitr::include_graphics("Images/5actors.png")
 
 ---
 # We bring data and expertise to the rescue
-
+*Our expertise in geospatial science with state-of-the-art remote sensing data brings transparency and mobilise coordinated action*
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics("Images/problem_solvers.png")
+```
 
 ---
 
