@@ -174,27 +174,52 @@ class: center, middle, inverse
 ---
 # Methodology Framework
 
-```{r, echo=FALSE, out.width='85%'}
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics("Images/methodologyframework.png")
 ```
 
 ---
 # A. Desertification Index and Risk Identification
 
-```{r, echo=FALSE, out.width='85%'}
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics("Images/method_a.png")
 ```
 
 ---
 # B. Tree Planting Site Identification
 
-```{r, echo=FALSE, out.width='85%'}
+```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics("Images/method_b.png")
 ```
 
 ---
 # Earth Observation Data
 
+```{r echo=FALSE}
+# Load the data from the Excel file
+eo_data_df <- read_excel("images/eoData.xlsx")
+
+# Replace NA with empty strings for better table formatting
+#eo_data_df[is.na(eo_data_df)] <- ""
+
+# Ccreate a table with merged cells
+#kable_out <- kable(eo_data_df, "html", escape = FALSE) %>%
+#  kable_styling(bootstrap_options = c("striped", "hover", #"condensed", "responsive")) %>%
+#  column_spec(1, width = "150px") %>%
+#  row_spec(1, extra_css = "height: 120px;") %>%
+#  collapse_rows(columns = 1:6, valign = "top")
+#
+# Print the table
+#kable_out
+
+# Use kable and kableExtra to create a table with merged cells
+kable_out <- kable(eo_data_df, "html", escape = FALSE, align = 'l') %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  collapse_rows(columns = 1:6, valign = "top")
+
+# Print the table
+kable_out
+```
 
 ---
 # Additional Data
