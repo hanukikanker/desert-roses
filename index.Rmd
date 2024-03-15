@@ -78,42 +78,50 @@ class: center, middle
 xaringanExtra::use_panelset()
 ```
 
-.panelset.sideways[
-.panel[.panel-name[Hist. Temp Increase]
+.panelset[
+.panel[.panel-name[Air Temp Increase]
 
-Surface Air Temperature has been **accelerating** at an alarming rate since the 1980s.
+Surface Air Temperature has been **accelerating** at an alarming rate since the 1980s. At this rate, projected number of hot days are exceeding records in the decades to come. From 2020, **40-degree days will be the norm**.
 
+.pull-left[
 ```{r, echo=FALSE, out.width='70%', fig.align='centre'}
 knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
 ```
-
 ]
-
-.panel[.panel-name[Proj. Temp Increase]
-At this rate, projected number of hot days are exceeding records in the decades to come. From 2020, **40-degree days will be the norm**.
-```{r, echo=FALSE, out.width='75%',fig.align='centre'}
+.pull-right[
+```{r, echo=FALSE, out.width='85%',fig.align='centre'}
 knitr::include_graphics('Images/RS - images/output_djIgp0.gif')
 ```
+]
 ]
 
 .panel[.panel-name[Water Bodies Shrinkage]
 Many important water bodies such as Lake Chad and the Niamey River have **seriously shrunken** in less than 3 decades due to sharp decrease in rainfall.
-
-```{r, echo=FALSE, out.width='80%',fig.align='centre'}
+.pull-left[
+```{r, echo=FALSE, out.width='90%',fig.align='centre'}
 knitr::include_graphics('Images/waterloss.png')
 ```
+]
 
-```{r, echo=FALSE, out.width='80%',fig.align='centre'}
-knitr::include_graphics('Images/waterbodiesshrinkage.png')
+.pull-right[
+```{r, echo=FALSE, out.width='100%',fig.align='centre'}
+knitr::include_graphics('Images/lakechad.jpg')
 ```
+]
 ]
 
 .panel[.panel-name[Natural Flora Loss]
 Combined with unsustainable agricultural practices, we are seeing a **decline of natural steppes and savannas**
-
-```{r, echo=FALSE, out.width='70%', fig.align='centre'}
+.pull-left[
+```{r, echo=FALSE, out.width='100%', fig.align='centre'}
 knitr::include_graphics('Images/Flora.png')
 ```
+]
+.pull-right[
+```{r, echo=FALSE, out.width='100%', fig.align='centre'}
+knitr::include_graphics('Images/4f7fa1d451.jpg')
+```
+]
 
 ]
 ]
@@ -121,20 +129,32 @@ knitr::include_graphics('Images/Flora.png')
 ---
 # Nationwide initiatives are of high-priority
 
-```{r, echo=FALSE, out.width='100%'}
-knitr::include_graphics("Images/impacts.png")
-```
+These are all signs of **desertification**, seen across the Sahel region, where fertile land gradually disappears. Looming **food and water security** threats due to shrinking arable land/water sources could lead to **humanitarian crises** and **violent conflicts**.
+- Niger is predicted to **2X population** in 15 years (50 mil) 
+- **40%** of Niger population live in poverty. 
+- **83%** live in rural areas in depend on agriculture for subsistence
 
+.pull-left[
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics('Images/aadworldmapen.jpg')
+```
+]
+.pull-right[
+### What's being done?
+
+Niger is part of multinational initiatives to combat desertification, such as **Action Against Desertification**, which support local communities & govs to restore degraded land. 
+Other regional projects with global/local fundings include FLEUVE, BRICKS sharing the same goal and task forces
+]
 ---
 # Vast potential with Great Green Wall...
 
-The **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel containing among eleven nations. Niger restoration potential is **25% of the total potential**. By 2030, the GGW initiative sets out to: 
+The ir flagship project is the **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel containing among eleven nations. Niger restoration potential is **25% of the total potential**. By 2030, the GGW initiative sets out to: 
 
 - restore **100 million hectares** of currently degraded land, 
 - reduce emissions, sequester **250 million tons of carbon**, and 
 - create **10 million green jobs** in rural areas.
 
-```{r, echo=FALSE, out.width='100%'}
+```{r, echo=FALSE, out.width='90%'}
 knitr::include_graphics('Images/ggw.png')
 ```
 
