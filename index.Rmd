@@ -201,7 +201,7 @@ eo_data_df <- read_excel("images/data_eo.xlsx")
 # Use kable and kableExtra to create a table with merged cells
 kable_out <- kable(eo_data_df, "html", escape = FALSE, align = 'l') %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
-  collapse_rows(columns = 1:6, valign = "top")
+  collapse_rows(columns = 1:6, valign = "middle")
 
 # Print the table
 kable_out
