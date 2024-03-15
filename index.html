@@ -30,7 +30,7 @@
     <script src="index_files/tile-view-0.2.6/tile-view.js"></script>
     <link href="index_files/panelset-0.3.0/panelset.css" rel="stylesheet" />
     <script src="index_files/panelset-0.3.0/panelset.js"></script>
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xf6fed02f6d2485991e991c7afe65363","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xac3c50efa6f4cc79c4ec722c88c1b66","expires":1}</script>
     <script src="index_files/himalaya-1.1.0/himalaya.js"></script>
     <link href="index_files/editable-0.2.6/editable.css" rel="stylesheet" />
     <script src="index_files/editable-0.2.6/editable.js"></script>
@@ -176,10 +176,17 @@ class: center, middle, inverse
 &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style="text-align:left;"&gt; LULC &lt;/td&gt;
-   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; Landsat 5, Landsat 7 ETM+, Landsat 8 &lt;/td&gt;
-   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; Common, 30m (Visible, NIR, SWIR); Landsat 5, 120m (Thermal); Landsat 7, 60m (Panchromatic), 120m (Thermal); Landsat 8, 15m (Panchromatic), 100m (Thermal) &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; Landsat 5; 
+Landsat 7 ETM+; 
+Landsat 8 &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; Common, 30m (Visible, NIR, SWIR); 
+Landsat 5, 120m (Thermal); 
+Landsat 7, 60m (Panchromatic), 120m (Thermal); 
+Landsat 8, 15m (Panchromatic), 100m (Thermal) &lt;/td&gt;
    &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; 16 days &lt;/td&gt;
-   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; Landsat 5, 1984-2013; Landsat 7 ETM+, 1999-present* (Scan Line Corrector (SLC) failure from May 2003 and some periods of inactivity in 2024); Landsat 8, 2013-present &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="3"&gt; Landsat 5, 1984-2013; 
+Landsat 7 ETM+, 1999-present* (Scan Line Corrector (SLC) failure from May 2003 and some periods of inactivity in 2024); 
+Landsat 8, 2013-present &lt;/td&gt;
    &lt;td style="text-align:left;vertical-align: top !important;" rowspan="4"&gt; Free &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; (Un)supervised classification &lt;/td&gt;
   &lt;/tr&gt;
@@ -216,6 +223,52 @@ class: center, middle, inverse
 ---
 # Additional Data
 
+&lt;table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Purpose &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Source &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Spatial Resolution &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Data Range &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Cost &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Processing &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="2"&gt; Population density and distribution &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; WorldPop &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 km &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000-2020 &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="4"&gt; Free &lt;/td&gt;
+   &lt;td style="text-align:left;vertical-align: top !important;" rowspan="2"&gt; None &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   
+   &lt;td style="text-align:left;"&gt; Kontur &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 400m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2020-2023 &lt;/td&gt;
+   
+   
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; SRTM GL1 (Global 30m) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; NASA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 30m &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   
+   &lt;td style="text-align:left;"&gt; Calculation of slope from elevation data &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Great Green Wall Extent* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Food and Agriculture Organisation (FAO) of the United Nations &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; N/A &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2021 &lt;/td&gt;
+   
+   &lt;td style="text-align:left;"&gt; Extract to shapefile layer &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 ---
 # Sample Dashboard Preview
