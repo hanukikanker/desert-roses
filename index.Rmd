@@ -56,8 +56,8 @@ background-size: cover
 
 class: inverse, center, middle, hide-logo
 
-# Greening the Sahel in Southern Niger 
-##Against Desertification
+# Project Desert Roses
+### Greening the Sahel in Southern Niger Against Desertification
 ```{r, echo=FALSE, out.width='10%'}
 knitr::include_graphics('Images/RS - images/logo.jpeg')
 ```
@@ -66,10 +66,9 @@ knitr::include_graphics('Images/RS - images/logo.jpeg')
 
 ---
 
-class: center, middle, inverse, hide-logo
+class: center, middle, inverse
 
 # WHY WE ARE HERE
-
 ### Context & Background
 
 ---
@@ -159,10 +158,9 @@ knitr::include_graphics("Images/5actors.png")
 
 ---
 
-class: center, middle, inverse, hide-logo
+class: center, middle, inverse
 
 # HOW WE DO IT
-
 ### Our award-winning methodology
 
 ---
@@ -202,7 +200,7 @@ knitr::include_graphics('Images/Dashboard Preview 2.png')
 
 ---
 # Sample Dashboard Demo
-```{r echo=FALSE, out.width='100%', fig.align='center'}
+```{r echo=FALSE, out.width='80%', fig.align='center'}
 knitr::include_graphics('Images/Dashboard Dem.gif')
 ```
 <div style="text-align: center; margin-top: 15px;">
@@ -265,7 +263,6 @@ background-size: cover
 class: center, middle, inverse, hide-logo
 
 # PLAN OF ACTION
-
 ### Putting it in motion
 
 ---
@@ -281,9 +278,8 @@ knitr::include_graphics('Images/timeline.png')
 ```{r, echo=FALSE, out.width='80%',fig.align='centre'}
 knitr::include_graphics('Images/compulsorycost.png')
 ```
-.left-column[
-**Value-added Services**
-]
+
+.left-column[**Value-added Services**]
 .right-column[
 ```{r, echo=FALSE, out.width='80%',fig.align='centre'}
 knitr::include_graphics('Images/optionalcost.png')
