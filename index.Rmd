@@ -122,6 +122,9 @@ knitr::include_graphics('Images/Flora.png')
 ---
 # Nationwide initiatives are of high-priority
 
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics("Images/impacts.png")
+```
 
 ---
 # Vast potential with Great Green Wall...
