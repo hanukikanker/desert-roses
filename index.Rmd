@@ -59,7 +59,7 @@ class: inverse, center, middle, hide-logo
 # Project Desert Rose
 ### Greening the Sahel in Southern Niger Against Desertification
 ```{r, echo=FALSE, out.width='10%'}
-knitr::include_graphics('Images/RS - images/logo.jpeg')
+knitr::include_graphics('Images/logo.jpeg')
 ```
 #### CASA0023 Group Project  
 #### 19/03/2024
@@ -83,14 +83,16 @@ xaringanExtra::use_panelset()
 
 Surface Air Temperature has been **accelerating** at an alarming rate since the 1980s. At this rate, projected number of hot days are exceeding records in the decades to come. From 2020, **40-degree days will be the norm**.
 
-.pull-left[
-```{r, echo=FALSE, out.width='70%', fig.align='centre'}
-knitr::include_graphics('Images/RS - images/Screenshot 2024-03-12 at 11.36.57.jpeg')
+.left-column[
+```{r, echo=FALSE, out.width='100%', fig.align='centre'}
+knitr::include_graphics('Images/histheat.jpeg')
 ```
+**Historical trends** annuall avg max Surface Air Temp 1951-2020
 ]
-.pull-right[
-```{r, echo=FALSE, out.width='85%',fig.align='centre'}
-knitr::include_graphics('Images/RS - images/output_djIgp0.gif')
+
+.right-column[**Projected** number of hot days 2020-2099 (SSP5-8.5)
+```{r, echo=FALSE, out.width='90%', fig.align='centre'}
+knitr::include_graphics('Images/hotday.jpeg')
 ```
 ]
 ]
@@ -348,6 +350,10 @@ class: center, middle, inverse, hide-logo
 
 # THANK YOU
 #### Aaron, Andrio, Huan, James, Maria, Sameera
+
+```{r, echo=FALSE, out.width='10%'}
+knitr::include_graphics('Images/logo.jpeg')
+```
 
 ---
 # References
