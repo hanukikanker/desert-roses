@@ -357,7 +357,8 @@ class: center, middle, inverse, hide-logo
 
 # THANK YOU
 
-####“A flower blooming in the desert proves to the world that adversity, no matter how great, can be overcome.” *- Matshona Dhliwayo*
+####“A flower blooming in the desert proves to the world that adversity,  
+####no matter how great, can be overcome.” *- Matshona Dhliwayo*
 
 ```{r, echo=FALSE, out.width='10%'}
 knitr::include_graphics('Images/logo.jpeg')
