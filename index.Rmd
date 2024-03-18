@@ -68,12 +68,6 @@ knitr::include_graphics('Images/logo.jpeg')
 ```{r, echo=FALSE, out.width='100%', fig.align='centre'}
 knitr::include_graphics('Images/europeheat.png')
 ```
----
-
-class: center, middle, inverse
-
-# WHY WE ARE HERE
-### Context & Background
 
 ---
 class: center, middle
@@ -133,7 +127,14 @@ knitr::include_graphics('Images/4f7fa1d451.jpg')
 ]
 
 ---
-# Nationwide initiatives are of high-priority
+
+class: center, middle, inverse
+
+# WHY WE ARE HERE
+### Context & Background
+
+---
+# Niger to urgently combat desertification
 
 These are all signs of **desertification**, seen across the Sahel region, where fertile land gradually disappears. Looming **food and water security** threats due to shrinking arable land/water sources could lead to **humanitarian crises** and **violent conflicts**.
 - Niger is predicted to **2X population** in 15 years (50 mil) 
