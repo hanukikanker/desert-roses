@@ -61,9 +61,13 @@ class: inverse, center, middle, hide-logo
 ```{r, echo=FALSE, out.width='10%'}
 knitr::include_graphics('Images/logo.jpeg')
 ```
-#### CASA0023 Group Project  
+#### CASA0023 Group Project: Aaron, Andrio, Huan, James, Maria, Sameera
 #### 19/03/2024
+---
 
+```{r, echo=FALSE, out.width='100%', fig.align='centre'}
+knitr::include_graphics('Images/europeheat.png')
+```
 ---
 
 class: center, middle, inverse
@@ -322,6 +326,8 @@ class: center, middle, inverse, hide-logo
 # PLAN OF ACTION
 ### Putting it in motion
 
+####"Sadly, it’s much easier to create a desert than a forest." *- James Lovelock*
+
 ---
 # Implementation Timeline
 
@@ -349,7 +355,8 @@ background-size: cover
 class: center, middle, inverse, hide-logo
 
 # THANK YOU
-#### Aaron, Andrio, Huan, James, Maria, Sameera
+
+####“A flower blooming in the desert proves to the world that adversity, no matter how great, can be overcome.” *- Matshona Dhliwayo*
 
 ```{r, echo=FALSE, out.width='10%'}
 knitr::include_graphics('Images/logo.jpeg')
