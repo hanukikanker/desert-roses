@@ -65,7 +65,7 @@ knitr::include_graphics('Images/logo.jpeg')
 #### 19/03/2024
 ---
 
-```{r, echo=FALSE, out.width='100%', fig.align='centre'}
+```{r, echo=FALSE, out.width='80%', fig.align='centre'}
 knitr::include_graphics('Images/europeheat.png')
 ```
 
@@ -357,12 +357,12 @@ class: center, middle, inverse, hide-logo
 
 # THANK YOU
 
-####“A flower blooming in the desert proves to the world that adversity,  
-####no matter how great, can be overcome.” *- Matshona Dhliwayo*
-
 ```{r, echo=FALSE, out.width='10%'}
 knitr::include_graphics('Images/logo.jpeg')
 ```
+
+####“A flower blooming in the desert proves to the world that adversity,  
+####no matter how great, can be overcome.” *- Matshona Dhliwayo*
 
 ---
 # References
@@ -375,16 +375,20 @@ Compositing, masking, and mosaicking  |  Google Earth engine  |  google for deve
 
 FAO: Food and Agriculture Organization of the United Nations (no date a) FAODocuments. Available at: https://www.fao.org/documents/card/en/c/CC0725EN/
 
+Higginbottom, T. and Symeonakis, E. (2014) ‘Assessing land degradation and desertification using vegetation index data: Current frameworks and Future Directions’, Remote Sensing, 6(10), pp. 9552–9575. doi:10.3390/rs6109552.
+
 Humanitarian Data Exchange. Available at: https://data.humdata.org/dataset/kontur-population-dataset
 
-Lt-gee guide. Available at: https://emapr.github.io/LT-GEE/
 ---
+Lt-gee guide. Available at: https://emapr.github.io/LT-GEE/
 
 Modis web, NASA. Available at: https://modis.gsfc.nasa.gov/about/specifications.php
 
 Niger population 2024 (live). Available at: https://worldpopulationreview.com/countries/niger-population
 
 Population counts, WorldPop. Available at: https://hub.worldpop.org/geodata/listing?id=74
+
+Rivera-Marin, D., Dash, J. and Ogutu, B. (2022) ‘The use of Remote Sensing for Desertification Studies: A Review’, Journal of Arid Environments, 206, p. 104829. doi:10.1016/j.jaridenv.2022.104829
 
 Sensitivity to desertification index map (2017) European Environment Agency. Available at: https://www.eea.europa.eu/data-and-maps/figures/sensitivity-to-desertification-index-map
 
