@@ -195,7 +195,7 @@ knitr::include_graphics('Images/ggw.png')
 
 ---
 # ...but hindered by systematic challenges
-.pull-left[Despite some local successes, Niger's GGW progress towards "greening" 3.6 million hectares (38% the territory) has been facing challenges in the last decade. **Poor governance capability** at the heart of the issue:
+.pull-left[Despite some local successes, Niger's GGW progress towards "greening" 3.6 million hectares (38% the territory) has been facing challenges in the last decade. **Poor governance** at the heart of the issue:
 
 - **Complex Stakeholders:** Funding comes from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation also fragmented across local actors, each with own task forces and action plans.
 - **Data Challenges:** Existing data is unreliable and disorganized. Generated and used by individual actors but not shared across. 
