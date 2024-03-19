@@ -65,10 +65,31 @@ knitr::include_graphics('Images/logo.jpeg')
 #### 19/03/2024
 ---
 
+class: center
+
 ```{r, echo=FALSE, out.width='80%', fig.align='centre'}
 knitr::include_graphics('Images/europeheat.png')
 ```
 
+---
+
+class: center
+
+.pull-left[
+```{r, echo=FALSE, out.width='100%', fig.align='centre'}
+knitr::include_graphics('Images/nigerprofile.png')
+```
+]
+
+.pull-right[
+```{r, echo=FALSE, out.width='100%', fig.align='centre'}
+knitr::include_graphics('Images/niger-ada.jpg')
+```
+]
+
+```{r, echo=FALSE, out.width='50%', fig.align='centre'}
+knitr::include_graphics('Images/deadanimal.jpg')
+```
 ---
 class: center, middle
 # Niger is bearing the brunt of climate change
@@ -139,7 +160,7 @@ class: center, middle, inverse
 These are all signs of **desertification**, seen across the Sahel region, where fertile land gradually disappears. Looming **food and water security** threats due to shrinking arable land/water sources could lead to **humanitarian crises** and **violent conflicts**.
 - Niger is predicted to **2X population** in 15 years (50 mil) 
 - **40%** of Niger population live in poverty. 
-- **83%** live in rural areas in depend on agriculture for subsistence
+- **83%** live in rural areas in depend on agriculture for subsistence, most susceptible to desertification.
 
 .pull-left[
 ```{r, echo=FALSE, out.width='100%'}
@@ -149,13 +170,14 @@ knitr::include_graphics('Images/aadworldmapen.jpg')
 .pull-right[
 ### What's being done?
 
-Niger is part of multinational initiatives to combat desertification, such as **Action Against Desertification**, which support local communities & govs to restore degraded land. 
-Other regional projects with global/local fundings include FLEUVE, BRICKS sharing the same goal and task forces
+Niger is part of multinational initiatives to combat desertification, such as **Action Against Desertification (FAO-UN)**, which support local communities & govs to restore degraded land. Other regional projects with global/local fundings include FLEUVE, BRICKS.
 ]
 ---
-# Vast potential with Great Green Wall...
+# Vast potential with the Great Green Wall...
 
-The ir flagship project is the **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel containing among eleven nations. Niger restoration potential is **25% of the total potential**. By 2030, the GGW initiative sets out to: 
+Their shared flagship project is the **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel containing among eleven nations. Niger restoration potential is **25% of the total potential**. 
+
+By 2030, the GGW initiative sets out to: 
 
 - restore **100 million hectares** of currently degraded land, 
 - reduce emissions, sequester **250 million tons of carbon**, and 
@@ -168,13 +190,12 @@ knitr::include_graphics('Images/ggw.png')
 
 ---
 # ...but hindered by systematic challenges
-.pull-left[Despite some success, the progress of the GGW has been facing severe challenges in the last decade 
+.pull-left[Despite some local successes, Niger's GGW progress towards "greening" 3.6 million hectares (38% the territory) has been facing challenges in the last decade. **Poor governance capability** at the heart of the issue:
 
-**Poor governance** at the heart of the issue:
+- **Complex Stakeholders:** Funding comes from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation also fragmented across local actors, each with own task forces and action plans.
+- **Data Challenges:** Existing data is unreliable and disorganized. Generated and used by individual actors but not shared across. 
 
-- **Complex Stakeholders:** Funding comes mainly from multilateral and bilateral partnerships, NGOs, and technical/financial partners. Implementation also fragmented across local actors.
-- **Data Challenges:** Existing data is scattered, unreliable, and not well-organized. It's generated and used by individual actors but not shared effectively.
-- **Urgent Gap:** Maintaining and updating the unified data across diverse organisations via a centralised portal.
+**Urgent Gap:** Maintaining and updating unified data across diverse organisations via a *centralised portal.*
 ]
 
 .pull-right[**Mapping of actors in Niger's GGW initiative**
