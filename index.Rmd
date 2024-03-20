@@ -180,7 +180,7 @@ Niger is part of multinational initiatives to combat desertification, such as **
 ---
 # Vast potential with the Great Green Wall...
 
-Their shared flagship project is the **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel containing among eleven nations. Niger restoration potential is **25% of the total potential**. 
+Among other initiatives, the flagship project **"Great Green Wall"** (15km wide, 8000km long) seeks to increase arable land in the Sahel across eleven nations. Niger restoration potential alone is **25% of the total potential**. 
 
 By 2030, the GGW initiative sets out to: 
 
@@ -211,7 +211,7 @@ knitr::include_graphics("Images/5actors.png")
 
 ---
 # We bring data and expertise to the rescue
-*Our expertise in geospatial science with state-of-the-art remote sensing data brings transparency and mobilise coordinated action*
+Our expertise in environmental and geospatial sciences using state-of-the-art remote sensing data brings transparency and mobilises coordinated action.
 ```{r, echo=FALSE, out.width='100%'}
 knitr::include_graphics("Images/problem_solvers.png")
 ```
